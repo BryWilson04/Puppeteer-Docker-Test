@@ -1,0 +1,21 @@
+{
+  "name": "puppeteer-docker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.7.1",
+    "puppeteer": "^24.23.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
